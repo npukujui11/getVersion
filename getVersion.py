@@ -3,6 +3,7 @@
 # By Ku Jui
 import requests
 from bs4 import BeautifulSoup
+#浏览器中的header
 hdrs = {'User-Agent':'Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)'}
 url = "http://10.5.7.39/polarion/#/project/EAGLEII/workitems/softwareUnit"
 r = requests.get(url, headers = hdrs)
